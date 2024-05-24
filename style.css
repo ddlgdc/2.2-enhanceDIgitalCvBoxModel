@@ -1,0 +1,58 @@
+body{ 
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* makes body a flex container */
+    /* sets the table center and all its content */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 1300px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    /* sets the table center and all its content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 300px;
+    height: 550px;
+    border: 5px solid black;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* adds shadow to title */
+}
+
+h1, h2, h3, h4{
+    text-decoration: underline; /* adds underline to titles */
+}
+
+a{
+    text-decoration: none; /* removes underline from links */
+}
+
+a:hover{
+    transform: scale(2.0); /* magnifies links */
+}
